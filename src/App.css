@@ -54,7 +54,7 @@ footer {
   justify-content: space-between;
 }
 .Round, .Score, .Best {
-  color:#55FF55;
+  color:#00AA00;
   text-align: center;
   padding: 1rem;
 }
@@ -65,13 +65,13 @@ footer {
   font-size: 3rem;
 }
 .GoalLine {
-  background-color: rgb(206, 232, 206);
+  background-color: #00AA00;
   height:.5rem;
   width: 50%;
   border-radius: 2rem;
 }
 .ScoreLine {
-  background-color: #55FF55;
+  background-color: #00AA00;
   border-radius: 10rem 10rem 0 0;
   width: 50%;
   transition: height 1s cubic-bezier(0.5, 1, 0.89, 1);

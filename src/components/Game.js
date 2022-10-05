@@ -5,7 +5,7 @@ import Grid from './Grid';
 function Game() {
   const [round, setRound] = useState(1);
   const [score, setScore] = useState(0);
-  const [best, setBest] = useState(0);
+  const [best, setBest] = useState(window.localStorage.getItem('bestScore'));
 
   const resetGame = () => {
     setRound(1);
@@ -23,6 +23,7 @@ function Game() {
   const incrementScore = () => {
     if(score + 1 > best) {
       setBest(score + 1);
+      window.localStorage.setItem('bestScore', score + 1);
     }
     setScore(score + 1);
   }
