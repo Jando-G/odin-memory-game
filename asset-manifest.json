@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/odin-memory-game/static/css/main.020423f4.css",
+    "main.js": "/odin-memory-game/static/js/main.20d5f83c.js",
+    "static/media/Cave.jpg": "/odin-memory-game/static/media/Cave.701ca95e430937ebf3e3.jpg",
+    "static/media/Cobblestone.png": "/odin-memory-game/static/media/Cobblestone.d34af8cd6dbb859a422d.png",
+    "static/media/Block (144).png": "/odin-memory-game/static/media/Block (144).e178ab265ad18b501b79.png",
+    "static/media/Block (138).png": "/odin-memory-game/static/media/Block (138).504a1afdb0e722f0d7e2.png",
+    "static/media/Block (190).png": "/odin-memory-game/static/media/Block (190).504a1afdb0e722f0d7e2.png",
+    "static/media/Block (143).png": "/odin-memory-game/static/media/Block (143).609a9b3a66c16efe03aa.png",
+    "static/media/MinecraftRegular-Bmg3.otf": "/odin-memory-game/static/media/MinecraftRegular-Bmg3.82ba08919dc2add9422f.otf",
+    "index.html": "/odin-memory-game/index.html",
+    "main.020423f4.css.map": "/odin-memory-game/static/css/main.020423f4.css.map",
+    "main.20d5f83c.js.map": "/odin-memory-game/static/js/main.20d5f83c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.020423f4.css",
+    "static/js/main.20d5f83c.js"
+  ]
+}
