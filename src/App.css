@@ -1,0 +1,113 @@
+@font-face {
+  font-family: Minecraft;
+  src: url("./Assets/MinecraftRegular-Bmg3.otf") format("opentype");
+}
+* {
+  box-sizing: border-box;
+  font-family: Minecraft;
+}
+body {
+  background-color: black;
+  margin: 0;
+}
+.App {
+  display: grid;
+  grid-template-rows: 13vh 79vh 8vh;
+}
+header {
+  color: white;
+  display: flex;
+  font-size: 5rem;
+  background-size: contain; 
+  background:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('./Assets/Cobblestone.png');
+  justify-content: center;
+  align-items: center
+}
+footer {
+  background-color: rgb(80, 80, 80);
+  color: rgb(233, 233, 233);
+}
+.Content {
+  display: grid;
+  grid-template-columns: 10fr 1fr;
+  background-image: url("./Assets/Cave.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+.Grid {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  flex-wrap: wrap
+}
+.ProgressContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 2rem;
+}
+.ProgressBar {
+  height: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Round, .Score, .Best {
+  color:#55FF55;
+  text-align: center;
+  padding: 1rem;
+}
+.Best {
+  padding-bottom: 0;
+}
+.Round {
+  font-size: 3rem;
+}
+.GoalLine {
+  background-color: rgb(206, 232, 206);
+  height:.5rem;
+  width: 50%;
+  border-radius: 2rem;
+}
+.ScoreLine {
+  background-color: #55FF55;
+  border-radius: 10rem 10rem 0 0;
+  width: 50%;
+  transition: height 1s cubic-bezier(0.5, 1, 0.89, 1);
+}
+@keyframes pop-in {
+  0% { opacity: 0; transform: scale(0.5); }
+  80% { opacity: .8; transform: scale(1.1); }
+  100% { opacity: 1; transform: scale(1); }
+}
+.Square {
+  height: 5rem;
+  width: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  border-radius: .5rem;
+}
+.Square:hover {
+  transform: scale(1.1);
+  box-shadow: rgba(240, 240, 240, 0.2) 0px 2px 8px 0px;
+}
+.Block {
+  animation-name: pop-in;
+  animation-duration: 0.5s;
+  height: 4rem;
+  width: 4rem;
+}
+Footer a {
+  background-color: #1c1917;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 1.25rem;
+  text-decoration: none;
+  gap: 0 .8rem;
+}
