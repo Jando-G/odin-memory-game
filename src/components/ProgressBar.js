@@ -11,8 +11,8 @@ function ProgressBar(props) {
     }
     return (
       <div className="ProgressContainer">
-        <div className="Best">Best: {props.best}</div>
           <div className="Score">Score: {props.score}</div>
+         <div className="Best">Best: {props.best}</div>
          <div className="ProgressBar">
            <div className="GoalLine"></div>
            <div className="ScoreLine" style={lineHeight}>
